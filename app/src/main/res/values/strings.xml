@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">LinksOfHugo</string>
-    <string name="hugo_template_str">{{%% linkpreview title=\"%1$s\"  subtitle=\"%2$s\"  link=\"%3$s\" %%}}</string>
+    <string name="hugo_template_str">{{%% linkpreview title=\"%1$s\"  subtitle=\"%2$s\"  link=\"%3$s\" thumbnail=\"%4$s\" %%}}</string>
 </resources>

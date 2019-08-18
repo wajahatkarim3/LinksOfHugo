@@ -94,7 +94,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun generateHugoCode(linkData: URLEmbeddedData?) {
-        var codeStr = getString(R.string.hugo_template_str, linkData?.title, linkData?.description, bi.txtLink.text.toString())
+        var codeStr = getString(R.string.hugo_template_str,
+                linkData?.title,
+                linkData?.description,
+                bi.txtLink.text.toString(),
+                linkData?.thumbnailURL)
         bi.txtHugoCode.text = codeStr
     }
 }
